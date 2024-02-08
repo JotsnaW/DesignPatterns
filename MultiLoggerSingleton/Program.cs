@@ -16,7 +16,7 @@ namespace MultiLoggerSingleton
             Logger logger3 = Logger.GetInstance();
             logger3.LogToFile("log3- singleton pattern" + Environment.NewLine);
 
-            Console.WriteLine($"Constructor is called for {Logger.count} times.");
+            Console.WriteLine($"Constructor is called for {Logger.m_count} times.");
         }
     }
 }

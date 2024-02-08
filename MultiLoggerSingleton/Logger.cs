@@ -5,7 +5,7 @@ namespace MultiLoggerSingleton
 {
     public class Logger
     {
-        public static int count =0;
+        public static int m_count = 0;
         private readonly string m_logFile;
         private readonly static Logger instance = new Logger();
 
@@ -14,7 +14,7 @@ namespace MultiLoggerSingleton
         { 
 
             m_logFile = "D:\\GitHub\\DesignPatterns\\MultiLoggerSingleton\\logFile.txt";
-            count++;
+            m_count++;
         }
 
         // static method to get instance
