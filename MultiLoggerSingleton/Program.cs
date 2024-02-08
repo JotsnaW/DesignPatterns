@@ -4,9 +4,9 @@ namespace MultiLoggerSingleton
 {
     internal class Program
     {
+        // This Program is example of Thread Safe Singleton
         static void Main()
         {
-
             Logger logger1 = Logger.GetInstance();
             logger1.LogToFile("log1- singleton pattern" + Environment.NewLine);
 
@@ -15,8 +15,6 @@ namespace MultiLoggerSingleton
 
             Logger logger3 = Logger.GetInstance();
             logger3.LogToFile("log3- singleton pattern" + Environment.NewLine);
-
-            Console.WriteLine($"Constructor is called for {Logger.m_count} times.");
         }
     }
 }
