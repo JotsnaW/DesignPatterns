@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonDesignPattern", "SingletonDesignPattern.csproj", "{BF2F81DB-A3D0-4F33-BD11-3D296D8EA64C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiLoggerSingleton", "..\MultiLoggerSingleton\MultiLoggerSingleton.csproj", "{8B0C9DA6-FF17-4B1E-943A-483F7803E1C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BF2F81DB-A3D0-4F33-BD11-3D296D8EA64C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF2F81DB-A3D0-4F33-BD11-3D296D8EA64C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF2F81DB-A3D0-4F33-BD11-3D296D8EA64C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B0C9DA6-FF17-4B1E-943A-483F7803E1C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B0C9DA6-FF17-4B1E-943A-483F7803E1C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B0C9DA6-FF17-4B1E-943A-483F7803E1C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B0C9DA6-FF17-4B1E-943A-483F7803E1C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
