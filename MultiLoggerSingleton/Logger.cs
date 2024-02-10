@@ -3,7 +3,7 @@ using System.IO;
 
 namespace MultiLoggerSingleton
 {
-    public class Logger
+    public class Logger: ILogger
     {
         public static int m_count = 0;
         private readonly string m_logFile;

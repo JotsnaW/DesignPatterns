@@ -4,6 +4,7 @@
     {
         private string name;
 
+        //static instance creation
         private static Singleton instance = new Singleton();
 
         // private çonstructor
@@ -12,7 +13,7 @@
 
         }
 
-        // static method
+        // static method to get Instance
         public static Singleton GetInstance()
         {
             return instance;
