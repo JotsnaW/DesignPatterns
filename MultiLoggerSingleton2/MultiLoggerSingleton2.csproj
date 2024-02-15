@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8B0C9DA6-FF17-4B1E-943A-483F7803E1C9}</ProjectGuid>
+    <ProjectGuid>{9B9957D1-1ED1-4674-A1A5-5882206B0206}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MultiLoggerSingleton</RootNamespace>
-    <AssemblyName>MultiLoggerSingleton</AssemblyName>
+    <RootNamespace>MultiLoggerSingleton2</RootNamespace>
+    <AssemblyName>MultiLoggerSingleton2</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

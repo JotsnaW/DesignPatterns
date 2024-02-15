@@ -9,27 +9,24 @@ namespace MultiLoggerSingleton2
         /// </summary>
         static void Main()
         {
-            string fileName1 = "D:\\GitHub\\DesignPatterns\\MultiLoggerSingleton\\log1.text";
-            string fileName2 = "D:\\GitHub\\DesignPatterns\\MultiLoggerSingleton\\log2.text";
+            string DatabaseLogFile = "D:\\GitHub\\DesignPatterns\\MultiLoggerSingleton\\Database.log";
+            string ErrorLogFile = "D:\\GitHub\\DesignPatterns\\MultiLoggerSingleton\\Error.log";
 
 
-            Logger log1 = Logger.GetInstance(fileName1);
-            log1.LogToFile(fileName1, "test1");
+            Logger firstLoggerObject = Logger.GetLoggerInstance(DatabaseLogFile);
+            firstLoggerObject.LogToFile(DatabaseLogFile, "Database Log entry");
 
-            Logger log2 = Logger.GetInstance(fileName2);
-            log2.LogToFile(fileName2, "test2");
+            Logger secondLoggerObject = Logger.GetLoggerInstance(ErrorLogFile);
+            secondLoggerObject.LogToFile(ErrorLogFile, "Error Log entry");
 
-            Logger log3 = Logger.GetInstance(fileName1);
-            log3.LogToFile(fileName1, "test3");
+            Logger thirdLoggerObject = Logger.GetLoggerInstance(DatabaseLogFile);
+            thirdLoggerObject.LogToFile(DatabaseLogFile, "Database Log entry");
 
-            Logger log4 = Logger.GetInstance(fileName1);
-            log4.LogToFile(fileName1, "test4");
+            Logger fourthLoggerObject = Logger.GetLoggerInstance(DatabaseLogFile);
+            fourthLoggerObject.LogToFile(DatabaseLogFile, "Database Log entry");
 
-            Logger log5 = Logger.GetInstance(fileName2);
-            log5.LogToFile(fileName2, "test5"); 
-
-            Console.WriteLine($"Constructor is called for {Logger.m_count} time.");
-            Console.ReadKey();
+            Logger fifthLoggerObject = Logger.GetLoggerInstance(ErrorLogFile);
+            fifthLoggerObject.LogToFile(ErrorLogFile, "Error Log entry."); 
         }
     }
 }

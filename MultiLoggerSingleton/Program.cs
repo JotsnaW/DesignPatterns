@@ -5,18 +5,20 @@ namespace MultiLoggerSingleton
     internal class Program
     {
         /// <summary>
-        /// This Program is an example of Thread Safe Singleton - MultiLogger with single files.
+        /// This Program is an example of Thread Safe Singleton - MultiLogger with single file.
         /// </summary>
-        static void Main()
+        public static void Main()
         {
-            Logger logger1 = Logger.GetInstance();
-            logger1.LogToFile("log1 - singleton pattern" + Environment.NewLine);
+            string ErrorLogFile = "D:\\GitHub\\DesignPatterns\\MultiLoggerSingleton\\Error.log";
 
-            Logger logger2 = Logger.GetInstance();
-            logger2.LogToFile("log2 - singleton pattern" + Environment.NewLine);
+            Logger firstLoggerInstance = Logger.GetInstance();
+            firstLoggerInstance.LogToFile("Error log1 - singleton pattern", ErrorLogFile);
 
-            Logger logger3 = Logger.GetInstance();
-            logger3.LogToFile("log3 - singleton pattern" + Environment.NewLine);
-        }
+            Logger secondLoggerInstance = Logger.GetInstance();
+            secondLoggerInstance.LogToFile("Error log2 - singleton pattern", ErrorLogFile);
+
+            Logger thirdLoggerInstance = Logger.GetInstance();
+            thirdLoggerInstance.LogToFile("Error log3 - singleton pattern", ErrorLogFile);
+            }
     }
 }

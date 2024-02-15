@@ -6,36 +6,33 @@ namespace MultiLoggerSingleton2
 {
     public class Logger: ILogger
     {
-        public static int m_count = 0;
         private static readonly object lockObject = new object();
-        private static Dictionary<string, Logger> m_object = new Dictionary<string, Logger>();
+        private static readonly Dictionary<string, Logger> m_objects = new Dictionary<string, Logger>();
 
         // private constructor
         private Logger()
         {
-            m_count++;
         }
 
         // static method to get instance
-        public static Logger GetInstance(string fileName)
+        public static Logger GetLoggerInstance (string LogFileName)
         {
-            lock (lockObject)
-            {
-                if (!m_object.ContainsKey(fileName))
+            lock ( lockObject )
                 {
-                    m_object.Add(fileName, new Logger());
+                if ( !m_objects.TryGetValue(LogFileName, out Logger instance) )
+                    {
+                    m_objects.Add(LogFileName, instance = new Logger());
+                    }
+                return instance;
                 }
             }
-            m_object.TryGetValue(fileName, out Logger instance);
-            return instance;
-        }
 
-        public void LogToFile(string fileName, string logMessage)
+        public void LogToFile(string LogFileName, string logMessage)
         {
             lock (lockObject) 
             {
-                Console.WriteLine($"Logging {logMessage} to file: {fileName}");
-                File.AppendAllText(fileName, logMessage);
+                Console.WriteLine($"Logging - {logMessage} to file: {LogFileName}");
+                File.AppendAllText(LogFileName, logMessage);
             }
         }
     }

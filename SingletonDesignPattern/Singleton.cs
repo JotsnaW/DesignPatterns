@@ -1,8 +1,10 @@
-﻿namespace SingletonDesignPattern
+﻿using System;
+
+namespace SingletonDesignPattern
 {
     internal class Singleton
     {
-        private string name;
+        private string m_name;
 
         //static instance creation
         private static Singleton instance = new Singleton();
@@ -10,7 +12,6 @@
         // private çonstructor
         private Singleton()
         {
-
         }
 
         // static method to get Instance
@@ -19,14 +20,14 @@
             return instance;
         }
 
-        public string getValue()
+        public string GetValue()
         {
-            return name;
+            return m_name;
         }
 
-        public void setValue(string text)
+        public void SetValue(string name)
         {
-            name = text;
+            m_name = name;
         }
     }
 }

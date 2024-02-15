@@ -4,16 +4,16 @@ namespace SingletonDesignPattern
 {
     internal class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             // call to get the instance of Singleton class
-            Singleton SingletonInstance1 = Singleton.GetInstance();
+            Singleton firstSingletonInstance = Singleton.GetInstance();
 
-            SingletonInstance1.setValue("Jotsna Waghmare");
+            firstSingletonInstance.SetValue("Jotsna Waghmare");
 
-            Singleton SingletonInstance2 = Singleton.GetInstance();
+            Singleton secondSingletonInstance = Singleton.GetInstance();
 
-            Console.WriteLine(SingletonInstance2.getValue());
+            Console.WriteLine(secondSingletonInstance.GetValue());
 
         }
     }
