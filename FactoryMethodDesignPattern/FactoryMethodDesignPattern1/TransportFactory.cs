@@ -10,9 +10,9 @@ namespace FactoryMethodDesignPattern
     }
     public class TransportFactory
     {
-        public ITransport CreateFactory(TransportType transportT)
+        public ITransport CreateFactory(TransportType transportType)
         {
-            switch (transportT) 
+            switch (transportType) 
             {
                 case TransportType.ByRoad:
                     return new RoadTransport();
