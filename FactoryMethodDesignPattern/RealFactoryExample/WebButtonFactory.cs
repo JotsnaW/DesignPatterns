@@ -1,8 +1,8 @@
 ﻿namespace RealFactoryExample
 {
-    public class WebDialog : DialogFactory
+    public class WebButtonFactory : IButtonFactory
     {
-        protected override IButton CreateButton()
+        public IButton CreateButton()
         {
             return new WebButton();
         }

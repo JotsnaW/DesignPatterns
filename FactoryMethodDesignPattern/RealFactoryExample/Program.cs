@@ -6,14 +6,15 @@ namespace RealFactoryExample
     {
         public static void Main()
         {
-            //Create a Web Dialog and render
-            DialogFactory windowDialog = new WindowDialog();
-            windowDialog.Render();
+            //Create a Window BUtton and render
+            IButtonFactory windowButtonFactory = new WindowButtonFactory();
+            Dialog windowDialog = new Dialog(windowButtonFactory);
+            windowDialog.RenderDialog();
 
-            //Create a Web Dialog and render
-            DialogFactory webDialog = new WebDialog();
-            webDialog.Render();
-
+            //Create a Web BUtton and render
+            IButtonFactory webButtonFactory = new WebButtonFactory();
+            Dialog webDialog = new Dialog(webButtonFactory);
+            webDialog.RenderDialog();
         }
     }
 }

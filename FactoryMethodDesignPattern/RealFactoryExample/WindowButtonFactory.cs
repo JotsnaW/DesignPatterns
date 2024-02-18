@@ -1,11 +1,10 @@
 ﻿namespace RealFactoryExample
 {
-    public class WindowDialog : DialogFactory
+    public class WindowButtonFactory : IButtonFactory
     {
-        protected override IButton CreateButton()
+        public IButton CreateButton()
         {
             return new WindowButton();
         }
-        
     }
 }
