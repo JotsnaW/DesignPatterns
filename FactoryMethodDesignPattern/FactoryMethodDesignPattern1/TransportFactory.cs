@@ -18,7 +18,7 @@ namespace FactoryMethodDesignPattern
                     return new RoadTransport();
 
                 case TransportType.BySea:
-                    return new SeaTransport();
+                    return new WaterTransport();
 
                 case TransportType.ByAir:
                     return  new AirTransport();

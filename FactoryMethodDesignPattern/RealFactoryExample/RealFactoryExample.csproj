@@ -43,15 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IButton.cs" />
-    <Compile Include="Dialog.cs" />
-    <Compile Include="IButtonFactory.cs" />
+    <Compile Include="AirTransport.cs" />
+    <Compile Include="AirTransportFactory.cs" />
+    <Compile Include="ITransport.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WebButton.cs" />
-    <Compile Include="WebButtonFactory.cs" />
-    <Compile Include="WindowButton.cs" />
-    <Compile Include="WindowButtonFactory.cs" />
+    <Compile Include="RoadTransport.cs" />
+    <Compile Include="RoadTransportFactory.cs" />
+    <Compile Include="WaterTransport.cs" />
+    <Compile Include="WaterTransportFactory.cs" />
+    <Compile Include="TransportFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -1,20 +1,17 @@
-﻿using System;
-
-namespace RealFactoryExample
+﻿namespace RealFactoryExample
 {
     public class Program
     {
         public static void Main()
         {
-            //Create a Window BUtton and render
-            IButtonFactory windowButtonFactory = new WindowButtonFactory();
-            Dialog windowDialog = new Dialog(windowButtonFactory);
-            windowDialog.RenderDialog();
+            TransportFactory roadTransportfactory = new RoadTransportFactory();
+            roadTransportfactory.CreateTransport().Deliver();
 
-            //Create a Web BUtton and render
-            IButtonFactory webButtonFactory = new WebButtonFactory();
-            Dialog webDialog = new Dialog(webButtonFactory);
-            webDialog.RenderDialog();
+            TransportFactory waterTransportfactory = new WaterTransportFactory();
+            waterTransportfactory.CreateTransport().Deliver();
+
+            TransportFactory airTransportFactory = new AirTransportFactory();
+            airTransportFactory.CreateTransport().Deliver();
         }
     }
 }

@@ -2,11 +2,11 @@
 
 namespace FactoryMethodDesignPattern
 {
-    public class SeaTransport : ITransport
+    public class WaterTransport : ITransport
     {
         public void Deliver()
         {
-            Console.WriteLine("Transport by Sea.");
+            Console.WriteLine("Transport by Water.");
         }
     }
 }

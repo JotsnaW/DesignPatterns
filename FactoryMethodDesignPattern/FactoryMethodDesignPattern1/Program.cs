@@ -10,8 +10,8 @@
             ITransport roadTransport = new TransportFactory().CreateFactory(TransportType.ByRoad);
             roadTransport.Deliver();
 
-            ITransport seaTransport = new TransportFactory().CreateFactory(TransportType.BySea);
-            seaTransport.Deliver();
+            ITransport waterTransport = new TransportFactory().CreateFactory(TransportType.BySea);
+            waterTransport.Deliver();
         }
     }
 }
