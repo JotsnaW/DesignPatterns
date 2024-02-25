@@ -4,14 +4,9 @@
     {
         public static void Main()
         {
-            TransportFactory roadTransportfactory = new RoadTransportFactory();
-            roadTransportfactory.CreateTransport().Deliver();
+            Transport transport = new Transport();
+            transport.Execute(new RoadTransportFactory());
 
-            TransportFactory waterTransportfactory = new WaterTransportFactory();
-            waterTransportfactory.CreateTransport().Deliver();
-
-            TransportFactory airTransportFactory = new AirTransportFactory();
-            airTransportFactory.CreateTransport().Deliver();
         }
     }
 }

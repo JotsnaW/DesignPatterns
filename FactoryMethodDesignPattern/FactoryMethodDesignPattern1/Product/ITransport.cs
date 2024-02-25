@@ -2,6 +2,6 @@
 {
     public interface ITransport
     {
-        void Deliver();
+        void Transport();
     }
 }

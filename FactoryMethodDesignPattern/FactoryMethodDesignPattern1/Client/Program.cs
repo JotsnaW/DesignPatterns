@@ -5,13 +5,13 @@
        public static void Main()
         {
             ITransport airTransport = new TransportFactory().CreateFactory(TransportType.ByAir);
-            airTransport.Deliver();
+            airTransport.Transport();
 
             ITransport roadTransport = new TransportFactory().CreateFactory(TransportType.ByRoad);
-            roadTransport.Deliver();
+            roadTransport.Transport();
 
             ITransport waterTransport = new TransportFactory().CreateFactory(TransportType.BySea);
-            waterTransport.Deliver();
+            waterTransport.Transport();
         }
     }
 }

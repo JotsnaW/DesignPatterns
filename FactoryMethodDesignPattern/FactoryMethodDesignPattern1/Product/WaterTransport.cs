@@ -4,7 +4,7 @@ namespace FactoryMethodDesignPattern
 {
     public class WaterTransport : ITransport
     {
-        public void Deliver()
+        public void Transport()
         {
             Console.WriteLine("Transport by Water.");
         }
