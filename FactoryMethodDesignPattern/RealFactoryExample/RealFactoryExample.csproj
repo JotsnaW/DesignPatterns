@@ -45,13 +45,13 @@
   <ItemGroup>
     <Compile Include="Product\TransportByTempo.cs" />
     <Compile Include="Product\ITransport.cs" />
-    <Compile Include="Client\Program.cs" />
+    <Compile Include="Main\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Product\TransportByCar.cs" />
     <Compile Include="Factory\RoadTransportFactory.cs" />
     <Compile Include="Product\TransportByTruck.cs" />
     <Compile Include="Factory\TransportFactory.cs" />
-    <Compile Include="Transport.cs" />
+    <Compile Include="Client\Transport.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
