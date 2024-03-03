@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace MultiLoggerSingleton2
+namespace MultiLoggerWithMultipleFiles
 {
     public class Logger: ILogger
     {

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace MultiLoggerSingleton
+﻿namespace MultiLoggerWithSingleFile
 {
     internal class Program
     {
@@ -9,7 +7,7 @@ namespace MultiLoggerSingleton
         /// </summary>
         public static void Main()
         {
-            string ErrorLogFile = "D:\\GitHub\\DesignPatterns\\MultiLoggerSingleton\\Error.log";
+            string ErrorLogFile = "D:\\GitHub\\DesignPatterns\\MultiLoggerWithSingleFile\\Error.log";
 
             Logger firstLoggerInstance = Logger.GetInstance();
             firstLoggerInstance.LogToFile("Error log1 - singleton pattern", ErrorLogFile);

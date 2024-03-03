@@ -1,4 +1,4 @@
-﻿namespace MultiLoggerSingleton
+﻿namespace MultiLoggerWithSingleFile
 {
     internal interface ILogger
     {

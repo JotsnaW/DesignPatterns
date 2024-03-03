@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace MultiLoggerSingleton
+namespace MultiLoggerWithSingleFile
 {
     public class Logger: ILogger
     {

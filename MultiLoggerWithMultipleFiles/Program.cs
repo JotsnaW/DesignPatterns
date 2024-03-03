@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MultiLoggerSingleton2
+namespace MultiLoggerWithMultipleFiles
 {
     internal class Program
     {
@@ -9,8 +9,8 @@ namespace MultiLoggerSingleton2
         /// </summary>
         static void Main()
         {
-            string DatabaseLogFile = "D:\\GitHub\\DesignPatterns\\MultiLoggerSingleton\\Database.log";
-            string ErrorLogFile = "D:\\GitHub\\DesignPatterns\\MultiLoggerSingleton\\Error.log";
+            string DatabaseLogFile = "D:\\GitHub\\DesignPatterns\\MultiLoggerWithMultipleFiles\\Database.log";
+            string ErrorLogFile = "D:\\GitHub\\DesignPatterns\\MultiLoggerWithMultipleFiles\\Error.log";
 
 
             Logger firstLoggerObject = Logger.GetLoggerInstance(DatabaseLogFile);
