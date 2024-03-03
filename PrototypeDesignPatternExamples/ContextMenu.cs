@@ -1,6 +1,6 @@
-﻿namespace PrototypeDesignPattern1
+﻿namespace ShapePrototypeSystem
 {
-    internal class ContextMenu
+    public class ContextMenu
     {
         public IComponent Duplicate(IComponent component)
         {
