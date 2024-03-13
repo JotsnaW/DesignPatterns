@@ -58,12 +58,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Product\AirTransport.cs" />
+    <Compile Include="Product\Air.cs" />
     <Compile Include="Product\ITransport.cs" />
     <Compile Include="Main\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Product\RoadTransport.cs" />
-    <Compile Include="Product\WaterTransport.cs" />
+    <Compile Include="Product\Road.cs" />
+    <Compile Include="Product\Water.cs" />
     <Compile Include="Factory\TransportFactory.cs" />
   </ItemGroup>
   <ItemGroup>

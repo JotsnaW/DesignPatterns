@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("RealFactoryExample")]
+[assembly: AssemblyTitle("TransportationExample-UseTrasportFactoryToCreateObjects")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("HP Inc.")]
-[assembly: AssemblyProduct("RealFactoryExample")]
+[assembly: AssemblyProduct("TransportationExample-UseTrasportFactoryToCreateObjects")]
 [assembly: AssemblyCopyright("Copyright © HP Inc. 2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("835e377a-569b-4c93-9438-15194bf7a35c")]
+[assembly: Guid("eff12247-11f4-40a5-a858-5b9805baf0d3")]
 
 // Version information for an assembly consists of the following four values:
 //

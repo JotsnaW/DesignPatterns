@@ -1,4 +1,4 @@
-﻿namespace RealFactoryExample
+﻿namespace FactoryMethodDesignPattern
 {
     public abstract class TransportFactory
     {

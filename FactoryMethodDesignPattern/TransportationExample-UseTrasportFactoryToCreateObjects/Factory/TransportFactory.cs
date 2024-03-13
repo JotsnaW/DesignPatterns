@@ -4,9 +4,9 @@ namespace FactoryMethodDesignPattern
 {
     public enum TransportType
     {
-        ByRoad,
-        BySea,
-        ByAir
+        Road,
+        Water,
+        Air
     }
     public class TransportFactory
     {
@@ -14,14 +14,14 @@ namespace FactoryMethodDesignPattern
         {
             switch (transportType) 
             {
-                case TransportType.ByRoad:
-                    return new RoadTransport();
+                case TransportType.Road:
+                    return new Road();
 
-                case TransportType.BySea:
-                    return new WaterTransport();
+                case TransportType.Water:
+                    return new Water();
 
-                case TransportType.ByAir:
-                    return  new AirTransport();
+                case TransportType.Air:
+                    return  new Air();
                 default:
                     throw new ArgumentException("Invalid Transport Type");
             }

@@ -2,7 +2,7 @@
 
 namespace FactoryMethodDesignPattern
 {
-    public class RoadTransport : ITransport
+    public class Road : ITransport
     {
         public void Transport()
         {

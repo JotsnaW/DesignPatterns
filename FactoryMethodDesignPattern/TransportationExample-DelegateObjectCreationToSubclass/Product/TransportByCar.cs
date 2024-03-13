@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace RealFactoryExample
+namespace FactoryMethodDesignPattern
 {
     public class TransportByCar : ITransport
     {
