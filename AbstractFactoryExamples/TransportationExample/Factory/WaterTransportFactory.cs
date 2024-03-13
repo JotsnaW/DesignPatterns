@@ -17,11 +17,11 @@ namespace TransportationExample
             ITransport instance = null;
             if (m_transportType == "Ship")
                 {
-                    instance = new TransportByShip();
+                    instance = new Ship();
                 }
                 else if (m_transportType == "Ferry")
                 {
-                    instance = new TransportByFerry();
+                    instance = new Ferry();
                 }
                 else
                 {

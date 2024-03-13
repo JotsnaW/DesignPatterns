@@ -2,11 +2,11 @@
 
 namespace TransportationExample
 {
-    internal class TransportByTruck : ITransport
+    public class Ship : ITransport
     {
         public void Deliver()
         {
-            Console.WriteLine("Deliver by Truck.");
+            Console.WriteLine("Deliver by Ship.");
         }
     }
 }

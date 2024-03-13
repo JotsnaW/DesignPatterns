@@ -48,10 +48,10 @@
     <Compile Include="Main\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Factory\RoadTransportFactory.cs" />
-    <Compile Include="Products\TransportByCar.cs" />
-    <Compile Include="Products\TransportByFerry.cs" />
-    <Compile Include="Products\TransportByShip.cs" />
-    <Compile Include="Products\TransportByTruck.cs" />
+    <Compile Include="Products\Car.cs" />
+    <Compile Include="Products\Ferry.cs" />
+    <Compile Include="Products\Ship.cs" />
+    <Compile Include="Products\Truck.cs" />
     <Compile Include="Factory\ITransportFactory.cs" />
     <Compile Include="Factory\WaterTransportFactory.cs" />
   </ItemGroup>
