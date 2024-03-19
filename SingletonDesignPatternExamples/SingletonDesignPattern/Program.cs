@@ -14,7 +14,6 @@ namespace SingletonDesignPattern
             Singleton secondSingletonInstance = Singleton.GetInstance();
 
             Console.WriteLine(secondSingletonInstance.GetValue());
-
         }
     }
 }

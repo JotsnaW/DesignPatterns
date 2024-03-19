@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace SingletonDesignPattern
+﻿namespace SingletonDesignPattern
 {
     internal class Singleton
     {

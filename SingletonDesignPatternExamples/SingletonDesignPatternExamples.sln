@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonDesignPattern", "SingletonDesignPattern.csproj", "{BF2F81DB-A3D0-4F33-BD11-3D296D8EA64C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonDesignPattern", "SingletonDesignPattern\SingletonDesignPattern.csproj", "{BF2F81DB-A3D0-4F33-BD11-3D296D8EA64C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiLoggerWithSingleFile", "..\MultiLoggerWithSingleFile\MultiLoggerWithSingleFile.csproj", "{8B0C9DA6-FF17-4B1E-943A-483F7803E1C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiLoggerWithSingleFile", "MultiLoggerWithSingleFile\MultiLoggerWithSingleFile.csproj", "{8B0C9DA6-FF17-4B1E-943A-483F7803E1C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiLoggerWithMultipleFiles", "..\MultiLoggerWithMultipleFiles\MultiLoggerWithMultipleFiles.csproj", "{9B9957D1-1ED1-4674-A1A5-5882206B0206}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiLoggerWithMultipleFiles", "MultiLoggerWithMultipleFiles\MultiLoggerWithMultipleFiles.csproj", "{9B9957D1-1ED1-4674-A1A5-5882206B0206}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

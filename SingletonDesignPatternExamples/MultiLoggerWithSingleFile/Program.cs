@@ -7,7 +7,7 @@
         /// </summary>
         public static void Main()
         {
-            string ErrorLogFile = "D:\\GitHub\\DesignPatterns\\MultiLoggerWithSingleFile\\Error.log";
+            string ErrorLogFile = "D:\\GitHub\\DesignPatterns\\SingletonDesignPatternExamples\\MultiLoggerWithSingleFile\\Error.log";
 
             Logger firstLoggerInstance = Logger.GetInstance();
             firstLoggerInstance.LogToFile("Error log1 - singleton pattern", ErrorLogFile);
