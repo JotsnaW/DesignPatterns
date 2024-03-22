@@ -8,9 +8,8 @@ namespace AbstractFactoryExample2
         public static void Main()
         {
             RenderElement renderElement = new RenderElement();
-            renderElement.Render(new MacFactory());
-
-            renderElement.Render(new WinFactory());
+            renderElement.Execute(new MacFactory());
+            renderElement.Execute(new WinFactory());
 
         }
     }

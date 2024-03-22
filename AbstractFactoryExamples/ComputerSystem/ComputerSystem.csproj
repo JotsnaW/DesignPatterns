@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BB8F2770-5A8A-4DE6-89B7-F1CB223B10BD}</ProjectGuid>
+    <ProjectGuid>{A33854EC-0CD3-45C8-8439-2E7DC19B1932}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AbstractFactoryExample1</RootNamespace>
-    <AssemblyName>AbstractFactoryExample1</AssemblyName>
+    <RootNamespace>ComputerSystem</RootNamespace>
+    <AssemblyName>ComputerSystem</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,20 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Client\Deliver.cs" />
-    <Compile Include="Products\ITransport.cs" />
+    <Compile Include="Client\Computer.cs" />
+    <Compile Include="Factory\IComputerFactory.cs" />
+    <Compile Include="Factory\LaptopFactory.cs" />
+    <Compile Include="Factory\PCFactory.cs" />
+    <Compile Include="Product\IComputer.cs" />
+    <Compile Include="Product\Laptop.cs" />
+    <Compile Include="Product\PC.cs" />
     <Compile Include="Main\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Factory\RoadTransportFactory.cs" />
-    <Compile Include="Products\Car.cs" />
-    <Compile Include="Products\Ferry.cs" />
-    <Compile Include="Products\Ship.cs" />
-    <Compile Include="Products\Truck.cs" />
-    <Compile Include="Factory\ITransportFactory.cs" />
-    <Compile Include="Factory\WaterTransportFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

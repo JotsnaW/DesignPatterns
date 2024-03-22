@@ -2,7 +2,7 @@
 
 namespace GUIExample.Products
 {
-    public class MacTextbox: IGUIElement
+    public class MacTextbox: ITextBox
     {
         public void Render()
         {

@@ -1,9 +1,8 @@
 ﻿using System;
 
-
 namespace GUIExample.Products
 {
-    public class WinTextbox: IGUIElement
+    public class WinTextbox: ITextBox
     {
         public void Render()
         {

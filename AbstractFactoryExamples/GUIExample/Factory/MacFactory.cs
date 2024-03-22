@@ -4,9 +4,14 @@ namespace GUIExample.Factory
 {
     public class MacFactory : IGUIFactory
     {
-        public IGUIElement CreateGUIElement()
+        public IButton CreateButton()
         {
             return new MacButton();
+        }
+
+        public ITextBox CreateTextBox()
+        {
+            return new MacTextbox();
         }
     }
 }

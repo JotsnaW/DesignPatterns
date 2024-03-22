@@ -4,6 +4,7 @@ namespace GUIExample.Factory
 {
     public interface IGUIFactory
     {
-        IGUIElement CreateGUIElement();
+        IButton CreateButton();
+        ITextBox CreateTextBox();
     }
 }

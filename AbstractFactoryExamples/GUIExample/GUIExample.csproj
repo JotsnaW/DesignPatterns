@@ -47,7 +47,8 @@
     <Compile Include="Factory\IGUIFactory.cs" />
     <Compile Include="Factory\MacFactory.cs" />
     <Compile Include="Factory\WinFactory.cs" />
-    <Compile Include="Products\IGUIElement.cs" />
+    <Compile Include="Products\IButton.cs" />
+    <Compile Include="Products\ITextBox.cs" />
     <Compile Include="Products\MacButton.cs" />
     <Compile Include="Products\MacTextbox.cs" />
     <Compile Include="Products\WinButton.cs" />

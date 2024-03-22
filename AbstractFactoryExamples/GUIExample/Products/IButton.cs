@@ -1,6 +1,6 @@
 ﻿namespace GUIExample.Products
 {
-    public interface IGUIElement
+    public interface IButton
     {
         void Render();
     }

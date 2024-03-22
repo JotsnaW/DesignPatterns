@@ -2,7 +2,7 @@
 
 namespace GUIExample.Products
 {
-    internal class WinButton : IGUIElement
+    internal class WinButton : IButton
     {
         public void Render()
         {

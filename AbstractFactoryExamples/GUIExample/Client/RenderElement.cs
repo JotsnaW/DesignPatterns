@@ -4,9 +4,11 @@ namespace GUIExample.Client
 {
     public class RenderElement
     {
-        public void Render(IGUIFactory factory)
+
+        public void Execute(IGUIFactory factory)
         {
-            factory.CreateGUIElement().Render();
+            factory.CreateTextBox().Render();
+            factory.CreateButton().Render();
         }
     }
 }

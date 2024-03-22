@@ -2,7 +2,7 @@
 
 namespace GUIExample.Products
 {
-    public class MacButton : IGUIElement
+    public class MacButton : IButton
     {
         public void Render()
         {

@@ -4,9 +4,14 @@ namespace GUIExample.Factory
 {
     public class WinFactory : IGUIFactory
     {
-        public IGUIElement CreateGUIElement()
+        public IButton CreateButton()
         {
             return new WinButton();
+        }
+
+        public ITextBox CreateTextBox()
+        {
+            return new WinTextbox();
         }
     }
 }
