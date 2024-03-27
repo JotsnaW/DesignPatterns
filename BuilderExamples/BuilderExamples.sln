@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseBuilderExample", "Hous
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomComputerSystem", "CustomComputerSystem\CustomComputerSystem.csproj", "{49056987-19C9-4423-9B2D-E4EEDE448D1E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseBuilder_UsingSingleBuilder", "HouseBuilder_UsingSingleBuilder\HouseBuilder_UsingSingleBuilder.csproj", "{E2B9F434-B3E2-411C-AE77-1BE8A6C0B0C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{49056987-19C9-4423-9B2D-E4EEDE448D1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49056987-19C9-4423-9B2D-E4EEDE448D1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49056987-19C9-4423-9B2D-E4EEDE448D1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2B9F434-B3E2-411C-AE77-1BE8A6C0B0C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2B9F434-B3E2-411C-AE77-1BE8A6C0B0C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2B9F434-B3E2-411C-AE77-1BE8A6C0B0C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2B9F434-B3E2-411C-AE77-1BE8A6C0B0C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
