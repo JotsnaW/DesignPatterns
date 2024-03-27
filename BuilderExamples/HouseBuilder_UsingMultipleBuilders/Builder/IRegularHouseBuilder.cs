@@ -1,6 +1,6 @@
-﻿using HouseBuilderExample.Product;
+﻿using HouseBuilder_UsingMultipleBuilders.Product;
 
-namespace HouseBuilderExample.Builder
+namespace HouseBuilder_UsingMultipleBuilders.Builder
 {
     public interface IRegularHouseBuilder
     {

@@ -1,6 +1,6 @@
-﻿using HouseBuilderExample.Builder;
+﻿using HouseBuilder_UsingMultipleBuilders.Builder;
 
-namespace HouseBuilderExample
+namespace HouseBuilder_UsingMultipleBuilders
 {
     public class RegularHouseDirector
     {

@@ -1,8 +1,8 @@
-﻿using HouseBuilderExample.Builder;
-using HouseBuilderExample.Director;
-using HouseBuilderExample.Product;
+﻿using HouseBuilder_UsingMultipleBuilders.Builder;
+using HouseBuilder_UsingMultipleBuilders.Director;
+using HouseBuilder_UsingMultipleBuilders.Product;
 
-namespace HouseBuilderExample
+namespace HouseBuilder_UsingMultipleBuilders
 {
     internal class Program
     {

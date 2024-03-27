@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{6F52A472-75DC-4F45-A2D6-4AF5A8547860}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>HouseBuilderExample</RootNamespace>
-    <AssemblyName>HouseBuilderExample</AssemblyName>
+    <RootNamespace>HouseBuilder_UsingMultipleBuilders</RootNamespace>
+    <AssemblyName>HouseBuilder_UsingMultipleBuilders</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

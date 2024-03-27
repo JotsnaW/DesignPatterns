@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HouseBuilderExample.Product
+namespace HouseBuilder_UsingMultipleBuilders.Product
 {
     public class FarmHouse
     {
