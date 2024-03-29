@@ -16,7 +16,7 @@ namespace HouseBuilder_UsingSingleBuilder.Director
             m_builder.BuildWindows("Wooden");
             m_builder.BuildRoof("Concrete");
             m_builder.BuildDoor("Glass");
-            m_builder.BuildGarden("Flower Garden");
+            m_builder.BuildGarden(true);
         }
     }
 }

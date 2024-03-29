@@ -1,9 +1,4 @@
 ﻿using HouseBuilder_UsingSingleBuilder.Product;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HouseBuilder_UsingSingleBuilder.Builder
 {
@@ -16,9 +11,9 @@ namespace HouseBuilder_UsingSingleBuilder.Builder
             m_house.Door = door;
             return this;
         }
-        public IHouseBuilder BuildGarden(string garden)
+        public IHouseBuilder BuildGarden(bool hasGarden)
         {
-            m_house.Garden = garden;
+            m_house.HasGarden = true;
             return this;
         }
         public IHouseBuilder BuildRoof(string roof)

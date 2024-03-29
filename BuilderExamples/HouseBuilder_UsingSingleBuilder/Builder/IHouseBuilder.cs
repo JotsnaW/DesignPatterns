@@ -8,7 +8,7 @@ namespace HouseBuilder_UsingSingleBuilder.Builder
         IHouseBuilder BuildWindows(string window);
         IHouseBuilder BuildRoof(string roof);
         IHouseBuilder BuildDoor(string door);
-        IHouseBuilder BuildGarden(string garden);
+        IHouseBuilder BuildGarden(bool hasGarden);
         House BuildHouse();
     }
 }

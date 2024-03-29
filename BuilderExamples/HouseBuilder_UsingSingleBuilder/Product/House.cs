@@ -8,11 +8,11 @@ namespace HouseBuilder_UsingSingleBuilder.Product
         public string Window { get; set; }
         public string Roof { get; set; }
         public string Door { get; set; }
-        public string Garden { get; set; }
+        public bool HasGarden { get; set; }
 
         public void DisplayFarmHouseDetails()
         {
-            Console.WriteLine($"Building House with {Walls} Walls, {Window} Window, {Roof} Roof, {Door} Door and {Garden} Garden.");
+            Console.WriteLine($"Building House with {Walls} Walls, {Window} Window, {Roof} Roof, {Door} Door and with Garden.");
         }
 
         public void DisplayRegularHouseDetails()
