@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryExample", "Geometry
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioPlayerExample", "AudioPlayerExample\AudioPlayerExample.csproj", "{FA51CEB1-1EC0-4D23-91BB-479BFFE2DDC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageSystem", "MessageSystem\MessageSystem.csproj", "{5403C313-E08B-41AB-90A7-F8ADB627E000}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FA51CEB1-1EC0-4D23-91BB-479BFFE2DDC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA51CEB1-1EC0-4D23-91BB-479BFFE2DDC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA51CEB1-1EC0-4D23-91BB-479BFFE2DDC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5403C313-E08B-41AB-90A7-F8ADB627E000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5403C313-E08B-41AB-90A7-F8ADB627E000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5403C313-E08B-41AB-90A7-F8ADB627E000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5403C313-E08B-41AB-90A7-F8ADB627E000}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
