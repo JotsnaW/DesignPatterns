@@ -6,7 +6,7 @@ namespace NotificationLibrary
     {
         public void Send(string message)
         {
-            Console.WriteLine($"Base Notifier: {message}");
+            Console.WriteLine(message);
         }
     }
 }

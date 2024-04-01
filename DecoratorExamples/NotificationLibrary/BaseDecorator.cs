@@ -1,6 +1,6 @@
 ﻿namespace NotificationLibrary
 {
-    public class BaseDecorator: INotifier
+    public abstract class BaseDecorator: INotifier
     {
         private INotifier m_notifier;
         public BaseDecorator(INotifier notifier) 

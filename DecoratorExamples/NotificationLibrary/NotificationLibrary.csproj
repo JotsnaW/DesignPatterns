@@ -49,7 +49,6 @@
     <Compile Include="INotifier.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SMSAndFacebookDecorator.cs" />
     <Compile Include="SMSDecorator.cs" />
   </ItemGroup>
   <ItemGroup>

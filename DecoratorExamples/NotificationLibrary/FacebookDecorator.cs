@@ -9,7 +9,7 @@
 
         public override void Send(string message)
         {
-            base.Send("Facebook notification: " + message);
+            base.Send($"Facebook - {message}");
         }
     }
 }

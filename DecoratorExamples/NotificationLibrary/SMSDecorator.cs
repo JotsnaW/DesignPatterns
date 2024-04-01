@@ -9,7 +9,7 @@
 
         public override void Send(string message)
         {
-            base.Send("SMS Notification:" + message);
+            base.Send($"SMS - {message}");
         }
     }
 }

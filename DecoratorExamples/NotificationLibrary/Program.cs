@@ -2,17 +2,18 @@
 {
     internal class Program
     {
-        static void Main()
+        public static void Main()
         {
             INotifier baseNotifier = new BaseNotifier();
 
-            baseNotifier = new SMSDecorator(baseNotifier);
+            BaseDecorator smsDecorator = new SMSDecorator(baseNotifier);
+            smsDecorator.Send("This is SMS Decorator");
 
-            baseNotifier =  new FacebookDecorator(baseNotifier);
-            
-            baseNotifier = new SMSAndFacebookDecorator(baseNotifier);
+            BaseDecorator facebookDecorator =  new FacebookDecorator(baseNotifier);
+            facebookDecorator.Send("This is Facebook Decorator.");
 
-            baseNotifier.Send("Hello there!!");
+            BaseDecorator smsAndFacebookDecorator = new FacebookDecorator(new SMSDecorator(baseNotifier));
+            smsAndFacebookDecorator.Send("This is SMS+Facebook Decorator.");
         }
     }
 }
