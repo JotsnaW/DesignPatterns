@@ -7,13 +7,13 @@
             INotifier baseNotifier = new BaseNotifier();
 
             BaseDecorator smsDecorator = new SMSDecorator(baseNotifier);
-            smsDecorator.Send("This is SMS Decorator");
+            smsDecorator.Send("Sending notification using SMS service.");
 
             BaseDecorator facebookDecorator =  new FacebookDecorator(baseNotifier);
-            facebookDecorator.Send("This is Facebook Decorator.");
+            facebookDecorator.Send("Sending notification using Facebook service.");
 
             BaseDecorator smsAndFacebookDecorator = new FacebookDecorator(new SMSDecorator(baseNotifier));
-            smsAndFacebookDecorator.Send("This is SMS+Facebook Decorator.");
+            smsAndFacebookDecorator.Send("Sending notification using Facebook + SMS service");
         }
     }
 }
